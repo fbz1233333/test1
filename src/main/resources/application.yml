@@ -1,0 +1,13 @@
+server:
+  port: 8500
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1?serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    timeout: 5000
+
+mybatis:
+  mapper-locations: classpath:mapperxml/*.xml
